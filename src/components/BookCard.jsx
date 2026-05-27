@@ -40,7 +40,7 @@ const BookCard = ({ book, handleDelete }) => {
       <div className="flex items-center gap-3 px-4 sm:px-5 pb-5 mt-auto">
         <Link
           to={`/edit-book/${book.id}`}
-          className="flex-1 flex items-center justify-center gap-2 bg-yellow-500 text-white px-4 py-2.5 rounded-lg font-medium hover:bg-yellow-600 transition"
+          className="flex-1 flex items-center cursor-pointer justify-center gap-2 bg-yellow-500 text-white px-4 py-2.5 rounded-lg font-medium hover:bg-yellow-600 transition"
         >
           <FaEdit />
           Edit
@@ -48,7 +48,7 @@ const BookCard = ({ book, handleDelete }) => {
 
         <button
           onClick={() => handleDelete(book.id)}
-          className="flex-1 flex items-center justify-center gap-2 bg-red-500 text-white px-4 py-2.5 rounded-lg font-medium hover:bg-red-600 transition"
+          className="flex-1 flex items-center cursor-pointer justify-center gap-2 bg-red-500 text-white px-4 py-2.5 rounded-lg font-medium hover:bg-red-600 transition"
         >
           <FaTrash />
           Delete

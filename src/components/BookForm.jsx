@@ -208,7 +208,7 @@ const BookForm = ({ onSubmit, initialData }) => {
           type="submit"
           className="w-full bg-indigo-600 text-white py-3 rounded-lg cursor-pointer font-semibold hover:bg-indigo-700 transition"
         >
-          Save Book
+          Add Book
         </button>
       </div>
     </form>

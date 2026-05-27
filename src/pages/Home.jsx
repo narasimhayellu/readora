@@ -141,14 +141,14 @@ const Home = () => {
                 onClick={() =>
                   setShowModal(false)
                 }
-                className="flex-1 py-3 rounded-lg border border-gray-300 hover:bg-gray-100"
+                className="flex-1 py-3 cursor-pointer rounded-lg border border-gray-300 hover:bg-gray-100"
               >
                 Cancel
               </button>
 
               <button
                 onClick={confirmDelete}
-                className="flex-1 py-3 rounded-lg bg-red-500 text-white hover:bg-red-600"
+                className="flex-1 py-3 cursor-pointer rounded-lg bg-red-500 text-white hover:bg-red-600"
               >
                 Delete
               </button>

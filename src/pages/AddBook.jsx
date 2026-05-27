@@ -28,7 +28,7 @@ const AddBook = () => {
     <div>
       <button
         onClick={() => navigate("/")}
-        className="flex items-center gap-2 mb-6 bg-white px-4 py-2 rounded-lg shadow hover:bg-gray-100"
+        className="flex items-center cursor-pointer gap-2 mb-6 bg-white px-4 py-2 rounded-lg shadow hover:bg-gray-100"
       >
         <FaArrowLeft />
         Back
