@@ -21,19 +21,20 @@ A fully responsive Book Management System built using React.js, Vite, Tailwind C
 
 ## 🛠️ Technologies Used
 
-- ⚛️ React.js  
-- ⚡ Vite  
-- 🎨 Tailwind CSS  
-- 🔀 React Router DOM  
-- 🌐 Axios  
-- 🔔 Notistack  
-- 🗄️ MockAPI  
-- 🎯 React Icons
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
+  <img src="https://img.shields.io/badge/MockAPI-FF6C37?style=for-the-badge" />
+</p>
 
 ---
 
 ## 📂 Project Structure
 
+```bash
 src
 │
 ├── api
@@ -42,6 +43,7 @@ src
 ├── assets
 ├── App.jsx
 └── main.jsx
+```
 
 ---
 
@@ -56,10 +58,12 @@ src
 
 ## 🔗 Routing
 
+```jsx
 /
  /add-book
  /edit-book/:id
  /book/:id
+```
 
 ---
 
