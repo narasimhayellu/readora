@@ -1,16 +1,110 @@
-# React + Vite
+# 📚 Readora - Book Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive Book Management System built using React.js, Vite, Tailwind CSS, and MockAPI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+✅ View all books
+✅ Add new books
+✅ Edit existing books
+✅ Delete books
+✅ Search books by title or author
+✅ Filter books by genre
+✅ View detailed book information
+✅ Responsive design for mobile & desktop
+✅ Toast notifications
+✅ Image upload with compression
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React.js  
+- ⚡ Vite  
+- 🎨 Tailwind CSS  
+- 🔀 React Router DOM  
+- 🌐 Axios  
+- 🔔 Notistack  
+- 🗄️ MockAPI  
+- 🎯 React Icons
+
+---
+
+## 📂 Project Structure
+
+src
+│
+├── api
+├── components
+├── pages
+├── assets
+├── App.jsx
+└── main.jsx
+
+---
+
+## 📸 Pages Included
+
+* 🏠 Home Page
+* ➕ Add Book Page
+* ✏️ Edit Book Page
+* 📖 Book Details Page
+
+---
+
+## 🔗 Routing
+
+/
+ /add-book
+ /edit-book/:id
+ /book/:id
+
+---
+
+## ⚡ API Operations
+
+* GET Books
+* POST Book
+* PUT Book
+* DELETE Book
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and works smoothly on:
+
+* 📱 Mobile
+* 💻 Laptop
+* 🖥️ Desktop
+
+---
+
+## 🌐 Deployment
+
+Deployed using:
+
+* GitHub
+* Netlify
+
+---
+
+## 🧠 What I Learned
+
+* React Hooks
+* CRUD Operations
+* API Integration
+* Routing
+* Responsive Design
+* Image Compression
+* Deployment Workflow
+
+---
+
+## 👨‍💻 Author
+
+Lakshmi Narasimha Reddy Yellu
+
+---
